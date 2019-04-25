@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortegapatriciaa.enventer.EventDetails"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayinfoEventTitle"
+        android:text="Sam Smith: Live in Manila"
+        android:textSize="27dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayinfoEventDate"
+        android:text="September 10, 2020"
+        android:textSize="22dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayinfoEventTime"
+        android:text="8pm - 10pm"
+        android:textSize="22dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayinfoEventLocation"
+        android:text="MOA Arena"
+        android:textSize="22dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayinfoEventDescription"
+        android:text="He will be back from his debut single..."
+        android:textSize="22dp"
+        android:textColor="@color/colorBlack"/>
+
+
+</LinearLayout>

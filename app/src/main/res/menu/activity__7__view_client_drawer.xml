@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_clie_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_clie_events"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_clie_feedback"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_clie_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_clie_exit"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Exit App" />
+
+      <!--  <item
+            android:id="@+id/nav_clie_logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Logout" />-->
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ed_width">300dp</dimen>
+    <dimen name="ed_heigth">40dp</dimen>
+    <dimen name="ed_margLeft">35dp</dimen>
+    <dimen name="ed_margTop">7dp</dimen>
+</resources>

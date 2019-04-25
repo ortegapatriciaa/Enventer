@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/layout_events_list"
+    android:background="?attr/selectableItemBackground"
+    android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEventTitle"
+            android:text="Sam Smith: Live in Manila"
+            android:textSize="25dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEventDate"
+            android:text="September 10, 2020"
+            android:textSize="17dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEventTime"
+            android:text="8pm - 10pm"
+            android:textSize="17dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEventLocation"
+            android:text="MOA Arena"
+            android:textSize="17dp"
+            android:textColor="@color/colorBlack"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252212586600",
+    "firebase_url": "https://enventer-a6656.firebaseio.com",
+    "project_id": "enventer-a6656",
+    "storage_bucket": "enventer-a6656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252212586600:android:d0c2860403f71f62",
+        "android_client_info": {
+          "package_name": "com.ortegapatriciaa.enventer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252212586600-jg57jsa0n0oitd9h3hohdgrudtc8vkkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.enventer",
+            "certificate_hash": "eddd2e85e1c29f4594ad994fd60324757276b56c"
+          }
+        },
+        {
+          "client_id": "252212586600-4up6oja5nfev7m7o88l16gjmhhrsp9j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTICqE8KzuzSYRLT4HzBBg3qHLRLWf2jc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252212586600-4up6oja5nfev7m7o88l16gjmhhrsp9j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

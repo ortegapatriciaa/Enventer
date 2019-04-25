@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ortegapatriciaa.enventer">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <permission
+        android:name="com.ortegapatriciaa.enventer.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ortegapatriciaa.enventer.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_2"
+        android:label="E(n)venter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDEFLKF71hPb0gZ8wzn532SDKr8m2F0AN4" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDEFLKF71hPb0gZ8wzn532SDKr8m2F0AN4" />
+
+        <activity android:name="._1_SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="._2_ChooseUser" />
+        <activity android:name="._4_LoginEventMember" />
+        <activity
+            android:name="._7_ViewClient"
+            android:label="@string/title_activity__7__view_client"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name="._7_ViewClient_Feedback" /> -->
+        <activity
+            android:name="._8_ViewEventMember"
+            android:label="@string/title_activity__8__view_event_member"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="._11_EventAdd"
+            android:parentActivityName="._8_ViewEventMember">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ortegapatriciaa.enventer._8_ViewEventMember" />
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".mapsactivity_1" />
+        <activity android:name="._5_SignupEventMember" />
+        <activity android:name=".EventDetails"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortegapatriciaa.enventer._11_EventAdd"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:layout_margin="5dp"></ImageView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/eventTitle"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:background="@color/colorGray"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Event Title"
+                    android:paddingLeft="10dp">
+                    <requestFocus />
+                </EditText>
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_add_a_photo_black_24dp"
+                    android:id="@+id/add_photo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorGray"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="92dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Start"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+            <EditText
+                android:id="@+id/textDateStart"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="MM/DD/YY"
+                android:background="@color/colorGray"
+                android:paddingLeft="10dp"
+                android:focusable="false">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/textTimeStart"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="time"
+                android:hint="00:00"
+                android:background="@color/colorGray"
+                android:paddingLeft="10dp"
+                android:focusable="false">
+                <requestFocus />
+            </EditText>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="92dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="End"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+            <EditText
+                android:id="@+id/textDateEnd"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="MM/DD/YY"
+                android:background="@color/colorGray"
+                android:paddingLeft="10dp"
+                android:focusable="false">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/textTimeEnd"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="00:00"
+                android:background="@color/colorGray"
+                android:paddingLeft="10dp"
+                android:focusable="false">
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="92dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Location"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+          <Button
+                android:id="@+id/btnlocation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Choose Location"
+                android:textAllCaps="false"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:height="60dp"
+                android:background="@color/colorGray"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/ic_location_searching_black_24dp"
+                android:gravity="left|center"
+                android:padding="6dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Description"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:gravity="top"
+                android:background="@color/colorLightGray"
+                android:inputType="textMultiLine"
+                android:id="@+id/event_description"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/ev_assign_linearlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/add_staff">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton android:id="@+id/btnaddstaff"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ic_person_add_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Staff"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="-15dp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnsave"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textSize="22dp"
+                    android:background="@color/buttonColor"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

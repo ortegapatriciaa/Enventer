@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:myapp="http://schemas.android.com/tools">
+
+    <!--<item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/action_settings"
+        myapp:showAsAction="ifRoom" />-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_em_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_em_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_em_staffs"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Staffs" />
+
+        <item
+            android:id="@+id/nav_em_events"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_em_feedback"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_em_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_em_logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Logout" />
+
+    </group>
+
+    <!--<item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="ifRoom" />-->
+
+</menu>

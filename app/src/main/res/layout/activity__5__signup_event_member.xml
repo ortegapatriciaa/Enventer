@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortegapatriciaa.enventer._5_SignupEventMember"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_signup2">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up as Event Member"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/signup_em_firstname"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:hint="First Name"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_em_lastname"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="Last Name"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_em_email"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="Email address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_em_password"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_em_confirmpassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/signup_em_bday"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="MM/DD/YYYY"
+                android:inputType="date"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <Spinner
+                android:id="@+id/spinner_em_country"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/country"
+                android:backgroundTint="@color/colorWhite"
+                android:background="@color/colorWhite"/>
+
+            <EditText
+                android:id="@+id/signup_em_mobilenum"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Mobile Number"
+                android:width="325dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="number"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite">
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/button_signup_event"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textSize="9pt"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@color/colorGreen"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
